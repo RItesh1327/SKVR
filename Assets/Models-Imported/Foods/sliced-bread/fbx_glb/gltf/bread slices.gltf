@@ -1,0 +1,159 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 8640,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1983,
+      "max": [
+        0.07052780151367187,
+        0.04612461090087891,
+        0.0839430809020996
+      ],
+      "min": [
+        -0.0731351375579834,
+        -0.0001611602306365967,
+        -0.0850835132598877
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1983,
+      "name": "UVMap",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 1983,
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "copyright": "2023 (c) Amazon.com, Inc.",
+    "generator": "encglb version  (post-processed with splitglb)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 17280,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23796,
+      "byteOffset": 17280
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15864,
+      "byteOffset": 41076
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23796,
+      "byteOffset": 56940
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 80736,
+      "uri": "bread slices.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "FB_ngon_encoding"
+  ],
+  "images": [
+    {
+      "uri": "normalTexture0.png"
+    },
+    {
+      "uri": "baseColorTexture1.png"
+    },
+    {
+      "uri": "metallicRoughnessTexture2.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {},
+      "name": "Material.001",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh_43",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "extensions": {
+            "FB_ngon_encoding": {}
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Sliced Bread.004"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

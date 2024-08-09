@@ -1,0 +1,159 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 540,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 198,
+      "max": [
+        0.055096254348755105,
+        0.029024991989135742,
+        0.027133679389953615
+      ],
+      "min": [
+        -0.02943559646606423,
+        3.3306479454040525e-05,
+        -0.05954361915588379
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 198,
+      "name": "map1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 198,
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "copyright": "2023 (c) Amazon.com, Inc.",
+    "generator": "encglb version  (post-processed with splitglb)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1080,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2376,
+      "byteOffset": 1080
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1584,
+      "byteOffset": 3456
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2376,
+      "byteOffset": 5040
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 7416,
+      "uri": "carrot.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "FB_ngon_encoding"
+  ],
+  "images": [
+    {
+      "uri": "normalTexture0.png"
+    },
+    {
+      "uri": "baseColorTexture1.png"
+    },
+    {
+      "uri": "metallicRoughnessTexture2.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {},
+      "name": "lambert2",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh_43",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "extensions": {
+            "FB_ngon_encoding": {}
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "pCylinder4"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

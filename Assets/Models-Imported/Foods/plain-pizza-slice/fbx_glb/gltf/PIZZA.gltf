@@ -1,0 +1,159 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 14016,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2662,
+      "max": [
+        0.0008843056112527848,
+        0.00031940460205078127,
+        0.0009393933415412903
+      ],
+      "min": [
+        -0.0016038575768470764,
+        -1.7181970179080964e-07,
+        -0.0009532812982797623
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2662,
+      "name": "map1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2662,
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "copyright": "2023 (c) Amazon.com, Inc.",
+    "generator": "encglb version  (post-processed with splitglb)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 28032,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 31944,
+      "byteOffset": 28032
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21296,
+      "byteOffset": 59976
+    },
+    {
+      "buffer": 0,
+      "byteLength": 31944,
+      "byteOffset": 81272
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 113216,
+      "uri": "PIZZA.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "FB_ngon_encoding"
+  ],
+  "images": [
+    {
+      "uri": "normalTexture0.png"
+    },
+    {
+      "uri": "baseColorTexture1.png"
+    },
+    {
+      "uri": "metallicRoughnessTexture2.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {},
+      "name": "Pizza",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh_44",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "extensions": {
+            "FB_ngon_encoding": {}
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "PIZZA"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

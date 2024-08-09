@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb934a71bcefbc48811122089da902d, type: 3}
+  m_Name: Module_4
+  m_EditorClassIdentifier: 
+  questions:
+  - question: What is the primary cause of grease fires in the kitchen?
+    options:
+    - Excessive use of cooking oil
+    - Overheating of cooking oil
+    - Lack of ventilation
+    answerIndex: 1
+  - question: 'What should you NOT do when attempting to extinguish a grease fire
+      on the stove? '
+    options:
+    - Cover the pan with a lid
+    - Pour water on the fire
+    - Use a fire extinguisher rated for Class B fires
+    answerIndex: 1
+  - question: What should you do if a hood fire occurs in your kitchen?
+    options:
+    - Spray water directly onto the fire
+    - Turn off the hood and evacuate the area
+    - Continue cooking and ignore the fire
+    answerIndex: 1
+  - question: Which element of the fire triangle can be removed to extinguish a fire?
+    options:
+    - Heat
+    - Fuel
+    - Oxygen
+    answerIndex: 2
+  - question: What does the acronym "PASS" stand for in relation to using a fire
+      extinguisher?
+    options:
+    - Pull, Aim, Squeeze, Sweep
+    - Point, Activate, Spray, Sweep
+    - 'Push, Attack, Spray, Stop '
+    answerIndex: 0
+  - question: "If one\u2019s clothes catch on fire, what class fire would it be categorized
+      as?"
+    options:
+    - CO2 Fire Extinguisher
+    - 'Wet, Chemical Fire Extinguisher '
+    - Powder Fire Extinguisher
+    answerIndex: 1
+  - question: ' What is the recommended way to alert others in the building if a
+      fire occurs in the kitchen?'
+    options:
+    - Yell loudly to get everyone's attention
+    - Activate the nearest fire alarm pull station
+    - Use a fire extinguisher to create noise
+    answerIndex: 1
+  - question: What should you do if a fire extinguisher is not readily available
+      to extinguish a small fire?
+    options:
+    - Attempt to put out the fire using water
+    - Evacuate the area and call the fire department
+    - Use a nearby towel or blanket to smother the fire
+    answerIndex: 1
+  - question: How can you prevent grease fires in the kitchen?
+    options:
+    - Avoid using cooking oils
+    - Clean hoods and filters regularly
+    - 'Use water to extinguish grease fires '
+    answerIndex: 1
+  - question: 'What does the OSHA regulation 1910.39 entail? '
+    options:
+    - 'Fire Prevention Plans '
+    - 'Automatic Sprinkler Systems '
+    - 'Portable Fire Extinguishers '
+    answerIndex: 0
+  - question: ' What is the recommended method for extinguishing a small grease fire
+      in a pan? '
+    options:
+    - 'Smother the fire with baking soda '
+    - 'Spray water on the fire '
+    - 'Use a fire extinguisher rated for Class K fires '
+    answerIndex: 0

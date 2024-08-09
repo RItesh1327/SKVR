@@ -1,0 +1,159 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 17340,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 5771,
+      "max": [
+        9.991747436523438,
+        5.524111938476563,
+        1.3287274169921874
+      ],
+      "min": [
+        9.077261962890626,
+        1.3997520446777345,
+        -0.02897552490234375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 5771,
+      "name": "map1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 5771,
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "copyright": "2023 (c) Amazon.com, Inc.",
+    "generator": "encglb version  (post-processed with splitglb)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 34680,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69252,
+      "byteOffset": 34680
+    },
+    {
+      "buffer": 0,
+      "byteLength": 46168,
+      "byteOffset": 103932
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69252,
+      "byteOffset": 150100
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 219352,
+      "uri": "food_slicer_hanging_socket.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "FB_ngon_encoding"
+  ],
+  "images": [
+    {
+      "uri": "normalTexture0.png"
+    },
+    {
+      "uri": "baseColorTexture1.png"
+    },
+    {
+      "uri": "metallicRoughnessTexture2.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {},
+      "name": "food_slicer_hanging_socket",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh_43",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 3,
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "extensions": {
+            "FB_ngon_encoding": {}
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "food_slicer_hanging_socket1"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

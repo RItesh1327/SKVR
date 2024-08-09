@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb934a71bcefbc48811122089da902d, type: 3}
+  m_Name: Module 2
+  m_EditorClassIdentifier: 
+  questions:
+  - question: How should you handle a slicer after use ?
+    options:
+    - Clean the blade by hand with a cloth or brush
+    - Leave it as is and let the dishwasher handle the cleaning
+    - Remove the blade for cleaning and sanitization
+    answerIndex: 0
+  - question: What should you do if a mixer or blender starts to malfunction during
+      use ?
+    options:
+    - Continue using it and try to fix the issue yourself
+    - Immediately turn it off, unplug it, and report the issue to a supervisor
+    - Shake or hit the equipment to get it working again
+    answerIndex: 1
+  - question: How should you handle broken glass cookware ?
+    options:
+    - Pick up the pieces with your bare hands and throw them away
+    - Use a broom and dustpan to carefully collect the broken glass
+    - Ignore it and continue working to avoid any delays
+    answerIndex: 1
+  - question: What should you do if you notice a fryer is smoking excessively ?
+    options:
+    - Add more oil to the fryer to reduce the smoke
+    - Turn off the fryer and investigate the cause of the smoke
+    - Ignore it, as some smoke is normal during frying
+    answerIndex: 1
+  - question: How should you clean a commercial fryer ?
+    options:
+    - Use a high-pressure hose to spray it down
+    - Scrub it with abrasive cleaning pads or steel wool
+    - Follow the manufacturer's instructions for cleaning and use proper cleaning
+      solutions
+    answerIndex: 2
+  - question: What should you do if you discover a gas leak in the kitchen near the
+      oven ?
+    options:
+    - Light a match to identify the source of the leak
+    - Immediately evacuate the kitchen and notify the gas company or emergency services
+    - Turn off all gas appliances and continue working while avoiding the area
+    answerIndex: 1
+  - question: How should you handle hot trays or pans from the oven ?
+    options:
+    - Use a wet towel to protect your hands from the heat
+    - Use oven mitts or heat-resistant gloves to safely handle hot items
+    - Avoid using any protective gear and handle them with bare hands
+    answerIndex: 1
+  - question: What should you do if a blender blade becomes jammed while blending
+      ?
+    options:
+    - Continue blending until the jam is cleared
+    - Unplug the blender and use a long object to safely clear the jam
+    - Disassemble the blender and attempt to fix the jam without unplugging it
+    answerIndex: 1
+  - question: How should you dispose of broken glass from a shattered blender jar
+      ?
+    options:
+    - Throw it in the regular trash bin
+    - Wrap it in a plastic bag and place it in a designated sharps container
+    - Leave it on the counter for someone else to handle
+    answerIndex: 1
+  - question: How often should you clean and sanitize slicers in a professional kitchen
+      ?
+    options:
+    - Once a month
+    - After each use or at least daily
+    - Only when they start to smell or look dirty
+    answerIndex: 1
+  - question: Which of the following is the correct way to hold a knife ?
+    options:
+    - Grip the handle firmly with all fingers
+    - Hold the blade edge with your palm
+    - Hold the knife by the tip of the blade
+    answerIndex: 1
+  - question: When should you use a dull knife ?
+    options:
+    - When slicing through tough ingredients
+    - When precision and control are required
+    - Never, always use a sharp knife
+    answerIndex: 2
