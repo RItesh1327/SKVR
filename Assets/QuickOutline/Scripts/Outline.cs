@@ -1,4 +1,5 @@
-﻿//
+﻿
+//
 //  Outline.cs
 //  QuickOutline
 //
@@ -52,8 +53,9 @@ public class Outline : MonoBehaviour {
   private class ListVector3 {
     public List<Vector3> data;
   }
-
-  [SerializeField]
+    [SerializeField]
+    private bool outlineChildren = true;
+    [SerializeField]
   private Mode outlineMode;
 
   [SerializeField]
@@ -110,9 +112,46 @@ public class Outline : MonoBehaviour {
 
       renderer.materials = materials.ToArray();
     }
-  }
 
-  void OnValidate() {
+        if (outlineChildren)
+        {
+            ApplyOutlineToChildren();
+        }
+        else
+        {
+            ApplyOutlineToParent();
+        }
+    }
+    void ApplyOutlineToChildren()
+    {
+        foreach (var renderer in renderers)
+        {
+            // Append outline shaders
+            var materials = renderer.sharedMaterials.ToList();
+
+            materials.Add(outlineMaskMaterial);
+            materials.Add(outlineFillMaterial);
+
+            renderer.materials = materials.ToArray();
+        }
+    }
+
+    void ApplyOutlineToParent()
+    {
+        var parentRenderer = GetComponent<Renderer>();
+
+        if (parentRenderer != null)
+        {
+            // Append outline shaders to the parent only
+            var materials = parentRenderer.sharedMaterials.ToList();
+
+            materials.Add(outlineMaskMaterial);
+            materials.Add(outlineFillMaterial);
+
+            parentRenderer.materials = materials.ToArray();
+        }
+    }
+    void OnValidate() {
 
     // Update material properties
     needsUpdate = true;
@@ -130,12 +169,21 @@ public class Outline : MonoBehaviour {
   }
 
   void Update() {
-    if (needsUpdate) {
-      needsUpdate = false;
+        if (needsUpdate)
+        {
+            needsUpdate = false;
+            UpdateMaterialProperties();
 
-      UpdateMaterialProperties();
+            if (outlineChildren)
+            {
+                ApplyOutlineToChildren();
+            }
+            else
+            {
+                ApplyOutlineToParent();
+            }
+        }
     }
-  }
 
   void OnDisable() {
     foreach (var renderer in renderers) {

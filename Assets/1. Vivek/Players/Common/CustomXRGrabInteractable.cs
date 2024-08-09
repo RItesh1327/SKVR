@@ -7,7 +7,6 @@ namespace Utils
 {
     public class CustomXRGrabInteractable : XRGrabInteractable
     {
-        [SerializeField] GameObject rightHandRay, leftHandRay;
         [SerializeField] public string animNameToPlay;
         [SerializeField] internal InteractorType grabbedInteractorType = InteractorType.None;
         [SerializeField] Transform leftHandAttachTransform, rightHandAttachTransform;
@@ -83,27 +82,10 @@ namespace Utils
             DetermineInteractorType(args.interactor);
             SetAttachTransform();
             base.OnSelectEntered(args);
-
-            /*if (grabbedInteractorType == InteractorType.LeftHand)
-            {
-                leftHandRay.SetActive(false);
-            }
-            else if (grabbedInteractorType == InteractorType.RightHand)
-            {
-                rightHandRay.SetActive(false);
-            }*/
         }
 
         protected override void OnSelectExited(SelectExitEventArgs args)
         {
-            /*if (grabbedInteractorType == InteractorType.LeftHand)
-            {
-                leftHandRay.SetActive(true);
-            }
-            else if (grabbedInteractorType == InteractorType.RightHand)
-            {
-                rightHandRay.SetActive(true);
-            }*/
             base.OnSelectExited(args);
             grabbedInteractorType = InteractorType.None;
         }

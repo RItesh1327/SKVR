@@ -14,6 +14,7 @@ public class SnapObject : MonoBehaviour
     public GameObject[] HideObject;
     public float distance;
     public UnityEvent onSnap;
+    public bool isRecordOutput;
     public bool isHideThis;
 
     private void OnTriggerEnter(Collider other)

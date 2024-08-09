@@ -19,7 +19,6 @@ namespace Utils
         public float triggerValue, gripValue;
         [SerializeField] GameObject handModel;
         [SerializeField] Animator handAnimator;
-        [SerializeField] XRDirectInteractor interactor;
         [SerializeField] CustomXRGrabInteractable currentGrabInteractable;
         [SerializeField] string toolName = string.Empty;
         [SerializeField] bool isXButtonPressed=false;
@@ -32,9 +31,6 @@ namespace Utils
         const string IS_HAND_OPEN = "IsHandOpen";
         private void Start()
         {
-            //interactor = GetComponentInParent<XRDirectInteractor>();
-            interactor.selectEntered.AddListener(OnHandSelectEnter);
-            interactor.selectExited.AddListener(OnHandSelectExit);
             TryInitialize();
         }
 
@@ -105,7 +101,6 @@ namespace Utils
         public void OnHandSelectEnter(SelectEnterEventArgs args)
         {
             currentGrabInteractable = args.interactable as CustomXRGrabInteractable;
-
             if (currentGrabInteractable)
             {
                 toolName = currentGrabInteractable.animNameToPlay;

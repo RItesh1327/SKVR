@@ -7,10 +7,18 @@ TagManager:
   - select
   - LeftHand
   - RightHand
-  - FoodItem
-  - pintrigger
-  - fire
-  - smoke
+  - panel3
+  - stove
+  - grill
+  - fryer
+  - oven
+  - Obj
+  - tray
+  - spill
+  - cloth
+  - pan
+  - BandAidPosition
+  - water
   layers:
   - Default
   - TransparentFX
@@ -18,8 +26,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Grab
-  - fire
+  - 
+  - 
   - 
   - 
   - 
@@ -47,4 +55,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 378021203
+    locked: 0
+  - name: Mesh
+    uniqueID: 803053957
     locked: 0

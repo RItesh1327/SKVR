@@ -64,7 +64,7 @@ MonoBehaviour:
   - ParticleSystemRenderer
   componentLimited: 0
   componentSize: 12
-  componentSpacing: 1
+  componentSpacing: 2
   displayTag: 1
   tagAlignment: 0
   displayLayer: 1

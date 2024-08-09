@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2f4cf1c2c29d74e9c916efdfc82bd7, type: 3}
+  m_Name: QuizData
+  m_EditorClassIdentifier: 
+  questions:
+  - question: What immediate steps should be taken when a spill occurs in a professional
+      kitchen?
+    choices:
+    - Immediately notify a supervisor or manager.
+    - Block off the affected area to prevent slips and falls.
+    - Quickly clean up the spill using appropriate cleaning materials and equipment.
+    correctChoice: 2
+  - question: What safety precautions should be followed when cleaning up a spill
+      in a professional kitchen?
+    choices:
+    - Wear appropriate personal protective equipment (PPE) such as gloves and non-slip
+      shoes.
+    - Use caution signs or barriers to notify others of the hazard.
+    - 'Follow proper cleaning procedures and use suitable cleaning agents for the
+      spill. '
+    correctChoice: 0
+  - question: What are the recommended methods for cleaning different types of spills
+      in a professional kitchen
+    choices:
+    - For liquid spills, use absorbent materials like paper towels or mop up the
+      spill.
+    - For grease or oil spills, use absorbent materials and clean with appropriate
+      degreasers.
+    - For broken glass spills, use a broom and dustpan to carefully collect the glass
+      pieces.
+    correctChoice: 0
